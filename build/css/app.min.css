@@ -621,6 +621,7 @@ input::placeholder, textarea::placeholder {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
+  overflow-x: hidden;
 }
 
 body {
