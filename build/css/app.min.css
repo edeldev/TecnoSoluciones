@@ -1033,6 +1033,27 @@ body.open .menu a {
 .container-servicios img {
   border-radius: 50px;
   animation: colorShadow 8s infinite;
+  filter: contrast(100%);
+}
+
+
+@media (min-width: 768px) {
+  .cambiar img {
+    width: 80%;
+  }
+}
+
+
+.container-servicios p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .container-servicios p {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @keyframes colorShadow {
@@ -1177,6 +1198,6 @@ body.open .menu a {
 }
 @media screen and (max-width: 770px) {
   .container-servicios img {
-    width: 70%;
+    width: 60%;
   }
 }
