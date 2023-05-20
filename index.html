@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoSoluciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Menu toggle Hamburger -->
+    <div class="menu d-block d-lg-none">
+        <nav>
+            <a href="#inicio" style="animation-delay: 0.1s" onclick="closeMenu()">HOME</a>
+            <a href="#nosotros" style="animation-delay: 0.2s" onclick="closeMenu()">NOSOTROS</a>
+            <a href="#servicios" style="animation-delay: 0.3s" onclick="closeMenu()">SERVICIOS</a>
+            <a href="#contacto" style="animation-delay: 0.3s" onclick="closeMenu()">CONTACTO</a>
+        </nav>
+    </div>
+
+    <!-- Navegacion -->
+    <header class="py-3">
+        <img src="build/img/logo-nav-light.png" alt="logo-light" class="logo">
+            <nav class="d-flex justify-content-center align-items-center">
+                <ul class="d-md-block d-lg-flex gap-4 m-0">
+                    <li><a href="#inicio">Home</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><i id="menuToggle" class="bi bi-list text-white fs-3"></i></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!-- HERO -->    
+    <hero>
+        <div class="container-xl">
+            <h1 class="text-white py-5 mt-2">TecnoSoluciones</h1>
+            <img src="build/img/logoBlanco.png" alt="logo-hero">
+            <p class="text-white py-5">Mantenimiento en Equipo de cómputo de escritorio y laptops. Formateo de S.O - Actualización de S.O - Instalación de Programas y mucho mas.</p>
+            <a href="#">Conocenos!</a>
+        </div>
+    </hero>
+
+    <!-- NOSOTROS -->
+    <section class="nosotros py-5 text-center" id="nosotros">
+            <div class="container-xl">
+                <div class="nosotros-textos p-2">
+                    <h2 class="text-center text-white fs-3">NOSOTROS SOMOS <br><span class="fs-2"><strong>TECNOSOLUCIONES</strong></span></h2>
+                </div>
+                <p class="text-white text-center pt-3">Somos una empresa de última generación enfocada en las necesidades de hoy con una visión futurista en tecnología para innovar y crear métodos revolucionarios de mantenimiento y reparación de equipos de cómputo.</p>
+            </div>
+    </section>
+
+    <section class="py-5">
+        <div class="text-center container-xl">
+            <h2 class="title-his">HISTORIA</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <p class="text-dark pt-4 pt-md-0 his-left">El negocio empezó como un proyecto escolar el cual fue tomando un camino mayor ya que las necesidades del pueblo eran bastantes demandantes, y no había técnicos en la zona. En base a eso fue creciendo éste proyecto hasta hacer un negocio formal, el cual se ha logrado mantener sólido a lo largo de casi 7 años.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="build/img/rewindicon.png" alt="rewindIcono" class="img-fluid d-none d-md-block image-right">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-mision py-5">
+            <div class="container-xl">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="mision-texto text-center">
+                            <h3 class="tilte-mis">Misión</h3>
+                            <p class="pt-4 text-white">Brindar soluciones innovadoras y asistencia técnica, que permitan a los usuarios o instituciones obtener servicios confiables, rápidos y eficientes de calidad a precios razonables, al mismo tiempo que facilitan la asistencia remota de manera profesional y confiable.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 order-2 order-md-1">
+                        <img src="build/img/nosotros-mision.jpg" alt="mision" class="img-fluid br-mision">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xl py-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <div class="vision-texto text-center">
+                        <h3 class="tilte-vis">Visión</h3>
+                        <p class="pt-4 text-dark">Convertirse en una empresa reconocida a nivel nacional y consolidarse como una de las mejores empresas dedicadas al desarrollo y optimización de soluciones técnicas, soporte técnico, asistencia remota y programación. Así como también ser un modelo a seguir para futuros empresarios y desarrolladores que se centren en este giro.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="build/img/nosotros-vision.jpg" alt="vision" class="img-fluid br-vision">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xl text-center">
+            <h2 class="title-prov">Principales Proveedores</h2>
+            <div class="row prov-left">
+                <div class="col-md-3">
+                    <img src="build/img/aorus.png" alt="aorus" class="img-fluid aorus">
+                </div>
+
+                <div class="col-md-3">
+                    <img src="build/img/gigabyte.png" alt="gigabyte" class="img-fluid gigabyte">
+                </div>
+
+                <div class="col-md-3">
+                    <img src="build/img/reddragon.png" alt="reddragon" class="img-fluid reddragon">
+                </div>
+
+                <div class="col-md-3">
+                    <img src="build/img/rog.png" alt="rog" class="img-fluid rog">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios py-5" id="servicios">
+        <div class="container-xl img-services">
+            <h2 class="text-center text-white fs-1">Servicios</h2>
+        </div>
+    </section>
+
+    <section class="bg-service text-white">
+        <div class="container-xl py-4 px-3">
+            <h5 class="text-center py-4">En <strong>TecnoSoluciones</strong> nos especializamos en ensambles y reparaciones de equipos de cómputo residenciales, pero también contamos con amplia experiencia para brindar soporte en proyectos industriales y comerciales.</h5>
+        
+            <div class="container-servicios cambiar d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/ensamble.jpg" alt="ensamble-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Ensamble</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-servicios cambiar2 d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/reparacion.jpg" alt="reparacion-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Reparación</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-servicios cambiar3 d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/mantenimiento.jpg" alt="mantenimiento-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Mantenimiento</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-servicios cambiar4 d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/venta-equipos.jpg" alt="venta-equipos-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Venta de Equipos</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-servicios cambiar5 d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/puntode-venta.png" alt="punto-de-venta-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Punto de Venta</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-servicios cambiar6 d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/camara-vigilancia.jpg" alt="camara-vigilancia-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Cámaras de Vigilancia</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-servicios cambiar7 d-flex justify-content-center align-items-center my-5">
+                <div class="row justify-content-center align-items-center gap-3 media">
+                    <div class="col-md-5">
+                        <img src="build/img/redes.jpg" alt="redes-servicio" class="img-fluid">
+                    </div>
+        
+                    <div class="col-md-5">
+                        <h2>Redes e Infraestructura</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, earum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-footer py-4" id="contacto">
+        <div class="container-xl">
+            <div class="row justify-content-center align-items-md-start gap-2 text-center text-md-start container-xl m-auto py-2 my-4">
+                <div class="col-md-5 left">
+                    <img src="build/img/logo-nav-light.png" alt="logo-footer" class="logo-footer py-3">
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus consequatur esse accusamus soluta necessitatibus ullam tempore sunt perferendis? Tempore.</p>
+                    <p class="text-white mb-2"><i class="bi bi-geo-alt me-2"></i>Loma bonita #123 Col. Loma bonita, Loma Bonita, Oax.</p>
+                    <p class="text-white mb-2"><i class="bi bi-telephone me-2"></i>281 87 91901</p>
+                    <p class="text-white mb-2"><i class="bi bi-envelope me-2"></i>lomatsoluciones@gmail.com</p>
+                    <h4 class="text-white py-2 text-center fs-3">Siguéme en redes</h4>
+                    <div class="d-flex justify-content-center gap-4 mb-2 mb-md-0">
+                        <a href="https://facebook.com"><i class="bi bi-facebook fs-3 text-white"></i></a>
+                        <a href="https://facebook.com"><i class="bi bi-instagram fs-3 text-white"></i></a>
+                        <a href="https://facebook.com"><i class="bi bi-twitter fs-3 text-white"></i></a>
+                        <a href="https://facebook.com"><i class="bi bi-whatsapp fs-3 text-white"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-5 right">
+                    <form action="https://formsubmit.co/edeldev25@gmail.com" method="POST">
+                        <h5 class="text-white pb-3 fs-3">Contacto</h5>
+                        <div class="d-flex flex-column gap-3">
+                            <input type="text" placeholder="Nombre" name="name">
+                            <input type="tel" placeholder="Teléfono" name="phone">
+                            <input type="email" placeholder="Email" name="email">
+                            <textarea cols="5" rows="5" placeholder="Mensaje" name="message"></textarea>
+                            <input type="submit" value="Enviar" class="bttn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+            <p class="text-white text-center pt-3 border-top m-0 tecno">TecnoSoluciones &copy; 2023</p>
+    </footer>
+
+    <!-- ScrollUp-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="bi bi-arrow-up-circle scrollup__icon"></i>
+</a>
+
+
+<!--Scroll para que se revelen los elementos de forma suave-->
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="build/js/main.min.js"></script>
+</body>
+</html>
