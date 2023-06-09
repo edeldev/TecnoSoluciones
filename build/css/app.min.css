@@ -580,7 +580,7 @@ textarea {
   }
 }
 .bg-footer {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../build/img/mantenimiento.webp");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../build/img/mantenimiento.webp");
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -882,7 +882,7 @@ body.open .menu a {
 }
 
 .nosotros {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../build/img/ingeniero-en-servidor.webp");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../build/img/ingeniero-en-servidor.webp");
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
