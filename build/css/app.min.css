@@ -757,7 +757,7 @@ hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../build/img/portada-teclado.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 50%;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
