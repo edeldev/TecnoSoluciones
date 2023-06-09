@@ -583,6 +583,7 @@ textarea {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../build/img/mantenimiento.webp");
   background-position: 50%;
   background-size: cover;
+  background-attachment: fixed;
 }
 .bg-footer a i:hover {
   color: rgba(255, 255, 255, 0.4);
@@ -884,6 +885,7 @@ body.open .menu a {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../build/img/ingeniero-en-servidor.webp");
   background-position: 50%;
   background-size: cover;
+  background-attachment: fixed;
 }
 .nosotros .nosotros-textos {
   display: inline-block;
@@ -1010,6 +1012,7 @@ body.open .menu a {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../build/img/fibra-optica.webp");
   background-position: 50%;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .bg-service {
