@@ -758,7 +758,6 @@ hero {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
